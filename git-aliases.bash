@@ -10,6 +10,7 @@ alias gplr='git pull --rebase';         __git_complete gplr  _git_pull
 alias gplum='git pull upstream master'
 
 alias gpu='git push';                 __git_complete gpu   _git_push
+alias gpuf='git push --force';        __git_complete gpuf  _git_push
 alias gpuu='git push --set-upstream'; __git_complete gpuu  _git_push
 alias gpuo='git push origin'
 alias gpuom='git push origin master'
