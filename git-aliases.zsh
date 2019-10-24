@@ -14,6 +14,7 @@ alias gpuf='git push --force'
 alias gpuu='git push --set-upstream'
 alias gpuo='git push origin'
 alias gpuom='git push origin master'
+alias gpuar='git remote | xargs -L1 git push'
 
 alias gpp='git pull && git push'
 
