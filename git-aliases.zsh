@@ -39,6 +39,7 @@ alias gmv='git mv'
 alias gs='git status'
 alias gss='git status --short'
 alias gd='git diff'
+alias gdw='git diff --word-diff'
 alias gds='git diff --staged'
 alias gdv='git diff -w "$@" | vim -R -'
 
