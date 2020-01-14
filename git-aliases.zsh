@@ -41,6 +41,7 @@ alias gss='git status --short'
 alias gd='git diff'
 alias gdw='git diff --word-diff'
 alias gds='git diff --staged'
+alias gdws='git diff --word-diff --staged';
 alias gdv='git diff -w "$@" | vim -R -'
 
 # git commit

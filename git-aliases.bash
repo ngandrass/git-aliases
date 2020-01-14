@@ -36,11 +36,12 @@ alias grm='git rm'; __git_complete grm _git_rm
 alias gmv='git mv'; __git_complete gmv _git_mv
 
 # git status / git diff
-alias gs='git status';            __git_complete gs  _git_status
-alias gss='git status --short';   __git_complete gss _git_status
-alias gd='git diff';              __git_complete gd  _git_diff
-alias gdw='git diff --word-diff'; __git_complete gdw  _git_diff
-alias gds='git diff --staged';    __git_complete gds _git_diff
+alias gs='git status';                      __git_complete gs  _git_status
+alias gss='git status --short';             __git_complete gss _git_status
+alias gd='git diff';                        __git_complete gd  _git_diff
+alias gdw='git diff --word-diff';           __git_complete gdw  _git_diff
+alias gds='git diff --staged';              __git_complete gds _git_diff
+alias gdws='git diff --word-diff --staged'; __git_complete gdws  _git_diff
 alias gdv='git diff -w "$@" | vim -R -'
 
 # git commit
