@@ -10,6 +10,7 @@ alias gplr='git pull --rebase'
 alias gplum='git pull upstream master'
 
 alias gpu='git push'
+alias gput='git push --tags'
 alias gpuf='git push --force'
 alias gpuu='git push --set-upstream'
 alias gpuo='git push origin'
