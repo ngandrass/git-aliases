@@ -58,6 +58,7 @@ alias gstpu='git stash push'
 alias gstpo='git stash pop'
 alias gstd="git stash drop"
 alias gstl="git stash list"
+alias gsts="git stash show -p"
 
 # git reset / git clean
 alias grst='git reset'; __git_complete grst _git_reset
